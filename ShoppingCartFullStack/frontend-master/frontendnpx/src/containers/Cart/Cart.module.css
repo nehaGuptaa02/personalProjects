@@ -1,0 +1,39 @@
+.Outer{
+    display: flex;
+}
+
+
+.Image{
+    border: 2px solid #565656;
+height: 150px;
+width:150px;
+margin-left:100px ;
+margin-bottom: 30px;
+}
+.Details{
+ /* border: 2px solid #565656; */
+height: 150px;
+width:800px;
+margin-left: 100px;
+padding: 10px ;
+color: #563f46;
+text-align: left;
+}
+.Button{
+/* margin-top: 800px; */
+margin: 100px 40px;
+background-color:#563f46;
+color: aliceblue;
+}
+.Delete{
+    background-color:#563f46;
+    color: aliceblue;
+}
+.Price{
+    font-size: larger;
+    margin-top: 0px;
+    margin-left: 360px;
+}
+.Empty{
+    padding-left: 450px;
+}

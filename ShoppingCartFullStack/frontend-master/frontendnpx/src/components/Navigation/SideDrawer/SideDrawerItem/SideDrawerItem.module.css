@@ -1,0 +1,30 @@
+@media(min-width:500px)
+{
+    .SideDrawerItem{
+        margin: 0;
+        display: flex;
+        height: 100%;
+        width: auto;
+        /* align-items: center; */
+        
+        
+    }
+    .SideDrawerItem a{
+        color: #563f46;
+         height: 100%;
+         padding: 6px 5px; 
+         align-items: left;
+         font-size: 20px;
+         width: 250px;
+         text-decoration: none;
+       
+    }
+
+.SideDrawerItem a:hover,
+.SideDrawerItem a:active,
+.SideDrawerItem a.active {
+    color: #563f46;
+    background-color: #A29599;
+    text-decoration: none;
+} 
+}

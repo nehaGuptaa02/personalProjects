@@ -1,0 +1,55 @@
+.Toolbar{
+    height:56px;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#563f46;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    }
+    .Toolbar nav{
+        height:100%
+    }
+    .Logo{
+        
+        height: 100%;
+       
+        box-sizing: border-box;
+        margin-right: auto;
+    }
+    @media(max-width:499px)
+    {
+        .DesktopOnly{
+            display: none;
+        }
+    }
+    .DrawerToggle{
+        align-items: left;
+    }
+    .Div{
+        width: 500px;
+        height: 40px;
+        background-color: #A29599;   
+        margin-right: 500px;
+        border-radius: 10px;
+
+    }
+    .Icon{
+        color: aliceblue;
+        margin-left: 8px;
+   
+    }
+    .SearchBar{
+        width: 450px;
+        height: 35px;
+        background-color: aliceblue;
+        margin-left: 10px;
+        border-radius: 10px;
+
+      
+    }

@@ -1,0 +1,46 @@
+.Root{
+    padding: 20px 35px;
+}
+
+ .Add{
+    border: 3px #A29599;
+    border-style: dashed;
+    height: 300px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    font-size: 50px;
+    color: #A29599;
+     padding-top: 150px;
+     margin-left: 60px;
+ 
+   
+
+} 
+
+.Div{
+    width: 300px;
+    border: 1px solid #563f46;
+    box-shadow: 0 2px 3px #A29599;
+     padding: 10px 10px;
+  margin-left:60px ;
+  margin-bottom: 200px;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 300px;
+}
+.Div p{
+    color: #563f46;
+}
+.Div Link{
+    color: #563f46;
+}
+.Button{
+    background-color: #563f46;
+    color: aliceblue;
+    margin-left: 3px;
+}
+.Button:hover{
+    background-color: aliceblue;
+    color:#563f46;
+}

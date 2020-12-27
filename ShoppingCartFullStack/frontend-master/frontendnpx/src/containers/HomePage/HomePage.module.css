@@ -1,0 +1,55 @@
+.Content{
+    margin-top: 76px;
+  }
+  .Div{
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Images{
+  border: 2px solid #565656;
+  height: 400px;
+  width: 400px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+.Details{
+  text-align: center;
+  color: #563f46;
+}
+.Link{
+  text-align:center;
+   font-size: '25px';
+   color:'#563f46';
+   text-decoration: none;
+}
+.Submit{
+  color: white;
+  background-color: #563f46;
+  height: 40px;
+  width: 150px;
+  margin-left: 45%;
+  margin-bottom: 20px;
+}
+.Product{
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  margin: 100px 0px;
+  margin-top: 40px;
+}
+.ProductImage{
+  height: 300px;
+  width: 300px;
+border: 2px solid #563f46;
+margin-left: 45px;
+margin-top: 5px;
+align-items: center;
+}.ProductImage:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.Details{
+  color: #563f46;
+}

@@ -1,0 +1,16 @@
+
+ .Admin{
+    border: 2px solid #563f46;
+    background-color: white;
+    margin: 150px 300px;
+    height: 400px;
+    text-align: center
+}
+@media(min-width:500px)
+{
+    .Admin{
+       
+    
+        width: 700px;
+    }
+}

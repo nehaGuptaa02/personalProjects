@@ -1,0 +1,26 @@
+.Div{
+    /* display: flex;
+    flex-wrap: wrap;  */
+    display: inline-block;
+     margin-left: 170px;
+    /* margin-right: auto; */
+}
+.Image{
+    border: 2px solid #555555;
+    /* margin-right: 250px; */
+    height: 305px;
+    width: 305px;
+}
+.Inner{
+    min-width: 305px;
+    /* width: 305px; */
+    color: #563f46;
+    font-size: 15px;
+   text-align: left;
+   /* height: 100px; */
+}
+.Image:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+ -webkit-transform: scale(1.5); /* Safari 3-8 */
+ transform: scale(1.5); 
+}

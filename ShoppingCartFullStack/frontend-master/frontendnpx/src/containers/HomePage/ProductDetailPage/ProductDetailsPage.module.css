@@ -1,0 +1,47 @@
+.Outer{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.Image{
+border: 2px solid #565656;
+height: 500px;
+width:350px;
+margin-left:100px ;
+}
+
+.Details{
+ /* border: 2px solid #565656; */
+height: 500px;
+width:500px;
+margin-left: 100px;
+padding: 10px 10px;
+color: #563f46;
+text-align: left;
+}
+/* .Button{
+    background-color: #563f46;
+    color: white;
+} */
+.Button{
+    /* margin-top: 500px; */
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #563f46;
+    color: white;
+}
+.Button:hover{
+   
+    background-color: #A29F99;
+    color: white;
+}
+
+.Variations{
+    margin-top: 520px;
+    width: 500px;
+    height: 70px;
+    /* margin-left: 200px; */
+    margin-right: 50px;
+    display: flex;
+}

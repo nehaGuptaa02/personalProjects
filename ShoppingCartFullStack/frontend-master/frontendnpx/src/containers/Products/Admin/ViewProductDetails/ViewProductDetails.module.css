@@ -1,0 +1,29 @@
+.Div{
+    width: 80%;
+    border: 1px solid #563f46;
+    box-shadow: 0 2px 3px #A29599;
+    padding: 25px;
+    margin: 100px;
+    font-size: 15px;
+    /* box-sizing: border-box; */
+    height: 300px;
+}
+.Image{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-top: 0px;
+}
+.Div p{
+    color: #563f46;
+}
+.Button{
+    background-color: #563f46;
+    color: aliceblue;
+    margin-left: 40px;
+}
+.Button:hover{
+    background-color: aliceblue;
+    color:#563f46;
+}

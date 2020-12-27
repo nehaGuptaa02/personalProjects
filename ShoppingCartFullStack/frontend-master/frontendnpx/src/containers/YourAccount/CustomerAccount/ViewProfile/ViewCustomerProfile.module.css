@@ -1,0 +1,40 @@
+.Image{
+   border: 2px solid #563f46;
+   align-items: center;
+   margin: 40px 500px;
+   height: 150px;
+   width: 200px;
+
+}
+.Button{
+    background-color: #563f46;
+    color:white;
+    float:right;
+    height: 30px;
+    margin-right: 10px;
+
+}
+.Button:hover{
+    background-color: #A29599;
+}
+.Outer{
+    width: 80%;
+    box-shadow: 0 2px 3px #A29599;
+    align-items: center;
+    padding: 10px;
+    height: 260px;
+    margin: 75px auto;
+    box-sizing: border-box;
+}
+.Outer p{
+    color: #563f46;
+}
+@media(min-width:500px)
+{
+    .Root{
+       
+    
+        width: 700px;
+    }
+}
+
